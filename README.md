@@ -1,25 +1,18 @@
 # Minimal setup for a TypeScript project
 
-## How to use
+This is my solution of the Google interview exercise "Merge two black and white images". See https://leetcode.com/discuss/interview-question/274236/google-onsite-merge-two-black-and-white-images.
 
--   Clone or copy
--   Change `.prettierrc` to your likings
--   Happy coding! 🚀
+## Exercise
 
-## Included
+You are provided with two images of black and white tiles. Every tile can be separated into exactly four smaller tiles. Those smaller tiles can again be separated into four smaller tiles a.s.o. Both images have the extact same structure of tiles. Calculate a third such image representing the merge of both images.
 
-Git, Yarn, Prettier, TypeScript
+The merge of two tiles is defined as follows:
 
-## How I got this
+-   tile 1 is white, tile 2 is white -> result is white
+-   tile 1 is white, tile 2 is black -> result is black
+-   tile 1 is black, tile 2 is white -> result is black
+-   tile 1 is black, tile 2 is black -> result is black
 
--   run `git init`
--   run `yarn init`
--   generate `.gitignore` file (see https://www.toptal.com/developers/gitignore)
--   run `yarn add -D @types/node ts-node ts-node-dev typescript`
--   create simple `.prettierrc` file (see https://prettier.io/docs/en/configuration.html)
--   add 2 scripts to `package.json` for run and debug:
+## Example:
 
-        "scripts": {
-            "start": "ts-node src/main.ts",
-            "start:debug": "ts-node-dev --inspect=0.0.0.0:9229 src/main.ts"
-        },
+![Example](example.png 'Example')
