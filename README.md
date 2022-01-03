@@ -1,4 +1,4 @@
-# Minimal setup for a TypeScript project
+# Google interview exercise "Merge two black and white images"
 
 This is my solution of the Google interview exercise "Merge two black and white images". See https://leetcode.com/discuss/interview-question/274236/google-onsite-merge-two-black-and-white-images.
 
